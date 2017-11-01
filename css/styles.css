@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 350px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ Header zone
+*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 5px 5px 0px;
+}
+
+header>div>span {
+  display: block;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  color: #2d3c49;
+  text-align: right;
+  text-transform: uppercase;
+  min-width: 250px;
+}
+
+.name {
+  font: 2em "Open Sans", sans-serif;
+}
+
+.position {
+  font: 1em "Open Sans", sans-serif;
+}
+
+hr {
+  border: 1.5px solid #7d97ad;
+}
+
+/**
+ Records
+*/
