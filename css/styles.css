@@ -4,20 +4,27 @@
 
 body {
   margin: 0;
-  min-width: 350px;
-  max-width: 800px;
+  min-width: 450px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.section-title {
+  color: #7d97ad;
+  display: block;
+  margin-left: 10px;
+}
+
 /**
- Header zone
+ Header
 */
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 5px;
 }
 
 header>div>span {
@@ -45,9 +52,90 @@ header>div>span {
 }
 
 hr {
-  border: 1.5px solid #7d97ad;
+  border: 1px solid #7d97ad;
 }
 
 /**
- Records
+  work experience
 */
+
+.work-experience {
+  width: 100%;
+}
+
+.job-descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.job-description {
+  width: 300px;
+  background-color: #ebf3ff;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  display: table;
+}
+
+.period {
+  width: 50%;
+  display: inline-block;
+}
+
+.title_in_company {
+  width: 50%;
+  display: inline-block;
+}
+
+.text {
+  width: 100%;
+}
+
+/**
+  Featured Work
+*/
+
+.featured-works {
+  width: 100%;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.work {
+  margin: 10px;
+  text-align: center;
+}
+
+.work-avatar {
+  width: 200px;
+}
+
+.work-name {
+  display: block;
+  color: #2d3c49;
+}
+
+.work-link {
+  display: block;
+  color: #7d97ad;
+  font-style: italic;
+}
+
+@media screen and (min-width: 720px) {
+  .work-avatar {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .job-description {
+    width: 450px;
+  }
+}
