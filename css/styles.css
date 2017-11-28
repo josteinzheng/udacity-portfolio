@@ -24,7 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
 }
 
 header>div>span {
@@ -72,7 +72,7 @@ hr {
 
 .job-description {
   width: 300px;
-  background-color: #ebf3ff;
+  background: #ebf3ff;
   margin: 15px;
   padding: 15px;
   border-radius: 15px;
